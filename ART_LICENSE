@@ -1,0 +1,15 @@
+All art images in the "portraits", "units", "story", and "terrain" are original work under
+the CC BY-SA v4 license.  The following images are not covered by this, for
+they are derivative work of GPL assets:
+
+units/orcs/rime-runner.png (and associated animation frames)
+units/ice-trolls/(all images in this directory)
+units/hostage_taker-move.png
+
+terrain/villages/primeval*.png
+terrain/villages/metal-tent.png
+terrain/despair/(all images in this directory)
+terrain/wall3/(all images in this directory)
+
+Images in directories not specified above should be considered derivative works
+of GPL assets.
