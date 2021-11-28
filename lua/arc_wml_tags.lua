@@ -26,3 +26,24 @@ function wesnoth.wml_actions.arc_message_box(cfg)
             wesnoth.set_variable(amb_variable, "no")
         end
 end
+
+-- WML tag for the pop-up dialog - not sure the translations part is done right
+--[[
+
+    [center_message]
+        image=example.png
+        message=_"Example text"
+    [/center_message]
+
+]]--
+
+-- local _ = wesnoth.textdomain "wesnoth-Bad_Moon_Rising"
+
+function wesnoth.wml_actions.center_message(cfg)
+        local message = tostring(cfg.message or "No message available")
+        local title = tostring(cfg.title or "")
+        local image = cfg.image
+        if image == nil then image = "wesnoth-icon.png" end
+
+        gui.show_popup(title,message,image)
+end
