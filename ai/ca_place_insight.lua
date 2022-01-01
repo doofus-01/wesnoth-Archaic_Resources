@@ -11,8 +11,7 @@ function ca_place_insight:evaluation(cfg, data, filter_own)
 
     if IS:evaluation({ { 'filter', filter_own } }, data) > 0 then
         if AH.print_eval() then AH.done_eval_messages(start_time, ca_name) end
-        -- return 96000 -- change this to something higher than combat CA score
-        return 191005 -- higher than AI_CA_GRAB_VILLAGES_SCORE
+        return 95999 -- stick with AI_CA_PLACE_HEALERS_SCORE - 1, as this is defensive ability
     end
     if AH.print_eval() then AH.done_eval_messages(start_time, ca_name) end
     return 0

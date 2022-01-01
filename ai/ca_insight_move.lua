@@ -12,7 +12,7 @@ function ca_insight_move:evaluation(cfg, data)
     -- Should happen with higher priority than attacks of all same-side units
     -- This is done so that it is possible for healers to attack, if they do not
     -- find an appropriate hex to back up other units
-    local score = data.IS_insight_move_score or 105000
+    local score = data.IS_insight_move_score or 96000
 
     local all_insighters = wesnoth.units.find_on_map {
         side = wesnoth.current.side,
