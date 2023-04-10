@@ -31,6 +31,7 @@ end
 --[[
 
     [center_message]
+        title=
         image=example.png
         message=_"Example text"
     [/center_message]
