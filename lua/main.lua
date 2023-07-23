@@ -1,5 +1,5 @@
 
-helper = wesnoth.require "lua/helper.lua"
+-- helper = wesnoth.require "lua/helper.lua"
 T = wml.tag
 items = wesnoth.require "lua/wml/items.lua"
 _ = wesnoth.textdomain "wesnoth-Archaic_Era"
